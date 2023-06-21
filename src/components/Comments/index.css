@@ -1,0 +1,85 @@
+.container {
+  box-shadow: 0.5px 2px 0.5px 1px #dee0e3;
+  margin: 70px;
+  padding: 60px;
+}
+
+.heading {
+  color: #1e293b;
+  font-family: Roboto;
+  font-weight: 700;
+}
+
+.para {
+  color: #475569;
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+.username {
+  outline: none;
+  border: 1px solid #cbd2d9;
+  height: 30px;
+  width: 280px;
+  font-family: Roboto;
+  padding-left: 10px;
+  margin-bottom: 8px;
+}
+
+.form-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment {
+  outline: none;
+  border: 1px solid #cbd2d9;
+  height: 180px;
+  width: 280px;
+  font-family: Roboto;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: #0284c7;
+  border-width: 0px;
+  color: #cbd2d9;
+  border-radius: 4px;
+  width: 100px;
+  height: 36px;
+}
+
+.comments-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.count-card {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 40px;
+}
+
+.count {
+  color: #cbd2d9;
+  background-color: #0284c7;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.comment-para {
+  color: #64748b;
+  margin-left: 6px;
+  font-family: Roboto;
+}
+
+.list-container {
+  list-style: none;
+}
